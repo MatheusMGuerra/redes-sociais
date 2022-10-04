@@ -27,6 +27,11 @@ section#smartphone {
     width: 311px;
 }
 
-section#tela-smart {
-    background: url("../imagens/tela-home.jpg");
+iframe#telas {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -46%);
+    height: 500px;
+    width: 264px;
 }
