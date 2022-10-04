@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url("../imagens/fundo-galaxia.jpg");
+    /*A imagem está muito grande, mas para não usar outro arquivo ou redimensionar, vou aplicar o cover para dar uma impressão de "corte" na imagem */
+    background-size: cover;
+}
+
+main {
+    position: relative;
+}
+
+section#smartphone {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, 10%);
+    background: url("../imagens/frame-iphone.png");
+    height: 625px;
+    width: 311px;
+}
+
+section#tela-smart {
+    background: url("../imagens/tela-home.jpg");
+}
